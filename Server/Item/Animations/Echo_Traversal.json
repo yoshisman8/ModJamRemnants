@@ -1,0 +1,121 @@
+{
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Falcon_Idle_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Falcon_Idle.blockyanim",
+      "Looping": true,
+      "ThirdPersonMoving": "NPC/Intelligent/Echo_Traversal/Falcon_Idle_Moving.blockyanim"
+    },
+    "Walk": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Walk_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Walk.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Walk_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "Run": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Run_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Run.blockyanim",
+      "Looping": true
+    },
+    "RunBackward": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Run_Backward_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Run_Backward.blockyanim",
+      "Looping": true
+    },
+    "Crouch": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Crouch_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Crouch.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalk": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Crouch_Walk.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Crouch_Walk_FPS.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalkBackward": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Crouch_Walk_Backward.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Crouch_Walk_Backward_FPS.blockyanim",
+      "Looping": true
+    },
+    "Dash": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Interact_FPS.blockyanim",
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Interact.blockyanim",
+      "Speed": 1,
+      "BlendingDuration": 0.1
+    },
+    "Jump": {
+      "Speed": 1,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Jump.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpWalk": {
+      "Speed": 0.8,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpRun": {
+      "Speed": 0.8,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Fall": {
+      "BlendingDuration": 0.4,
+      "Speed": 1,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Fall.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Sprint": {
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Sprint_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Sprint.blockyanim",
+      "Looping": true
+    },
+    "Glide": {
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide.blockyanim",
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_FPS.blockyanim",
+      "ThirdPersonMoving": "NPC/Intelligent/Echo_Traversal/Glide/Glide.blockyanim"
+    },
+    "GlideIdle": {
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Idle.blockyanim",
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Idle_FPS.blockyanim"
+    },
+    "GlideBackward": {
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Backward.blockyanim",
+      "ThirdPersonMoving": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Backward.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "GlideFast": {
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Fast.blockyanim",
+      "ThirdPersonMoving": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Fast.blockyanim",
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Fast_FPS.blockyanim"
+    },
+    "GlideRise": {
+      "ThirdPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Rise.blockyanim",
+      "FirstPerson": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Rise_FPS.blockyanim",
+      "ThirdPersonMoving": "NPC/Intelligent/Echo_Traversal/Glide/Glide_Rise.blockyanim"
+    }
+  },
+  "Parent": "Item",
+  "Tags": {
+    "GlideRun": []
+  }
+}

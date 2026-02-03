@@ -1,0 +1,9 @@
+{
+  "Interactions": [
+    "Echo_Traversal_Primary"
+  ],
+  "Cooldown": {
+    "Id": "Echo_Traversal",
+    "Cooldown": 15
+  }
+}

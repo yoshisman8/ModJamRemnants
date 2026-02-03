@@ -1,0 +1,77 @@
+{
+  "Texture": "NPC/Intelligent/Signal/Signal.png",
+  "EyeHeight": 2,
+  "CrouchOffset": -0.35,
+  "HitBox": {
+    "Max": {
+      "X": 0.85,
+      "Y": 2.8,
+      "Z": 0.85
+    },
+    "Min": {
+      "X": -0.85,
+      "Y": 0,
+      "Z": -0.85
+    }
+  },
+  "AnimationSets": {
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Alerted.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Golem_Earth_Alerted",
+          "Weight": 1,
+          "Speed": 1,
+          "BlendingDuration": 0.2
+        },
+        {
+          "SoundEventId": "SFX_Golem_Earth_Alerted",
+          "Animation": "NPC/Intelligent/Signal/Animations/Wave.blockyanim"
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Laydown.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Golem_Earth_Laydown"
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Sleep.blockyanim"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Signal/Animations/Awaken.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Golem_Earth_Wake"
+        }
+      ]
+    }
+  },
+  "Model": "NPC/Intelligent/Signal/Signal.blockymodel"
+}

@@ -1,0 +1,81 @@
+{
+  "Interactions": {
+    "Primary": "Root_Echo_Traversal_Primary",
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "GlidingActive": 1
+          },
+          "Next": {
+            "Type": "ToggleGlider"
+          }
+        },
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Glider"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Echo_Traversal.png",
+  "Categories": [
+    "Items.Weapons",
+    "Items.Utility",
+    "Items.Debug"
+  ],
+  "TranslationProperties": {
+    "Name": "server.items.Echo_Traversal.name"
+  },
+  "ItemLevel": 50,
+  "MaxStack": 1,
+  "Quality": "Rare",
+  "Model": "NPC/Intelligent/Echo_Traversal/Echo_Traversal.blockymodel",
+  "Texture": "NPC/Intelligent/Echo_Traversal/Echo_Traversal.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Glider": {
+    "FallSpeedMultiplier": 50,
+    "HorizontalSpeedMultiplier": 0.6,
+    "TerminalVelocity": -4,
+    "Speed": 10
+  },
+  "ItemAppearanceConditions": {
+    "GlidingActive": [
+      {
+        "Condition": [
+          1,
+          1
+        ],
+        "Model": "NPC/Intelligent/Echo_Traversal/Echo_Traversal_Deployed.blockymodel",
+        "Texture": "NPC/Intelligent/Echo_Traversal/Echo_Traversal.png"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      3,
+      -25
+    ]
+  },
+  "PlayerAnimationsId": "Echo_Traversal",
+  "State": {
+    "Active": {
+      "Model": "NPC/Intelligent/Echo_Traversal/Falcon_Glider_Deployed.blockymodel",
+      "Texture": "NPC/Intelligent/Echo_Traversal/Falcon_Glider_Texture.png",
+      "Animation": "NPC/Intelligent/Echo_Traversal/Falcon_Glider_Deployed_Item_Animation.blockyanim",
+      "Parent": "Echo_Traversal"
+    }
+  },
+  "Animation": "NPC/Intelligent/Echo_Traversal/Repaired_Traversal_Echo.blockyanim"
+}

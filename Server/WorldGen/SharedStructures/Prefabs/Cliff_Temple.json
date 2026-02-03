@@ -1,0 +1,30 @@
+{
+  "Id": "Cliff_Temple",
+  "ZoneMask": ["Zone1_Tier2"],
+  "Prefab": [
+    "Remnants.Cliff_Temple"
+  ],
+  "Weight": [
+    1.0
+  ],
+  "Pattern": {
+	"GridGenerator": {
+    "Seed": "Pattern_Monuments",
+    "Density": [0.7875, 1],
+    "Scale": 0.005,
+    "Jitter": 0.0
+	},
+  "HeightThreshold": {
+    "Positions": [118, 119, 121, 122],
+    "Values": [0, 1, 1, 0]
+  },
+	"FitHeightmap": true,
+    "Mask": {
+    "File": "Zones.Masks.Zone1.Monuments_Encounter"
+	},
+    "MaxSize": 160,
+  "ExclusionRadius": 160
+  }
+}
+
+

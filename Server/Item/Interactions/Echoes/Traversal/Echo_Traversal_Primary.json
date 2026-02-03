@@ -1,0 +1,36 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "Stamina": 0.01
+  },
+  "Next": {
+    "Type": "EffectCondition",
+    "EntityEffectIds": [
+      "Stamina_Broken"
+    ],
+    "Match": "None",
+    "Next": {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "ApplyForce",
+          "Direction": {
+            "Y": 10,
+            "Z": 2
+          },
+          "Force": 50,
+          "RunTime": 1,
+          "Effects": {
+            "ItemAnimationId": "GlideRise",
+            "ClearAnimationOnFinish": true,
+            "WorldSoundEventId": "SFX_Tornado",
+            "ClearSoundEventOnFinish": true
+          }
+        },
+        {
+          "Type": "ToggleGlider"
+        }
+      ]
+    }
+  }
+}

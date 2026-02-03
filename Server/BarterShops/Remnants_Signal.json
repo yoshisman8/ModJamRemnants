@@ -1,0 +1,17 @@
+{
+  "DisplayNameKey": "server.barter.remnants_signal.title",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 6,
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+		"Output": {"ItemId": "Echo_Traversal", "Quantity": 1},
+        "Input": [{ "ItemId": "Ingredient_Echo_Traversal", "Quantity": 1 }],
+		"Stock": 1
+      }
+    }
+  ]
+}

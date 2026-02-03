@@ -1,0 +1,30 @@
+{
+  "Group": "Vyklade",
+  "Name": "Remnants",
+  "Version": "1.0.0",
+  "Description": "Hytale January 2026 Modjam Entry",
+  "Authors": [
+    {
+      "Name": "Vyklade",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Oni_Feralis",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "vannasteria",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": { "SharedStructures:SharedStructures": "*"},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

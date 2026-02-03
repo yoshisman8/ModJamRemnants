@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Echo_Traversal.name"
+  },
+  "Categories": [
+    "Items"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "Model": "NPC/Intelligent/Echo_Traversal/Echo_Traversal_Broken.blockymodel",
+  "Texture": "NPC/Intelligent/Echo_Traversal/Echo_Traversal.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Echo_Traversal.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      15,
+      172,
+      25
+    ],
+    "Translation": [
+      -53,
+      -57
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true,
+  "Animation": "NPC/Intelligent/Echo_Traversal/Broken_Echo_Traversal.blockyanim"
+}
